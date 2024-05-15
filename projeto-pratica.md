@@ -33,7 +33,7 @@ de registros.
  ### Empréstmos:
  
 - [ ] Um empréstimo é associado a um usuário e a um livro específico.
-- [ ] Cada emprésƟmo possui uma data de retirada e uma data de devolução prevista.
+- [ ] Cada empréstimo possui uma data de retirada e uma data de devolução prevista.
 - [ ] Os empréstimos podem ser renovados, mas com um limite de renovações.
 - [ ] O sistema deve gerenciar a disponibilidade dos livros para empréstmo.
 
