@@ -4,9 +4,8 @@
 > Entrega até dia 03/06.
 >
 > Fazer o ERD.
-
-Salvar o script da tabela e das consultas e exportar. Um aluno do grupo envia pelo correio com o titulo: ENTREGA DO PROJETO DE PRÁTICA.
-Não esquecer de enviar o Diagrama Entidade - RElacionamento.
+> 
+> Salvar o script da tabela e das consultas e exportar. Um aluno do grupo envia pelo correio com o titulo: ENTREGA DO PROJETO DE PRÁTICA.
 
 
 
