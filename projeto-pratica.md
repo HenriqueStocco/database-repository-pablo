@@ -9,37 +9,38 @@
 
 
 
-## 1 - Situação Problema: Sistema de Gerenciamento de Biblioteca
-Uma biblioteca deseja informaƟzar o seu sistema de gerenciamento de livros, usuários e emprésƟmos.
+## 1 - Situação Problema: Sistema de Gerenciamento de Biblioteca:
+
+Uma biblioteca deseja informatizar o seu sistema de gerenciamento de livros, usuários e empréstimos.
 Atualmente, todas as operações são realizadas manualmente, e a biblioteca enfrenta desafios para
-controlar o acervo, os emprésƟmos, as devoluções e as informações dos usuários. Para solucionar
+controlar o acervo, os empréstimos, as devoluções e as informações dos usuários. Para solucionar
 esses problemas, a biblioteca decidiu implementar um sistema de banco de dados.
 
 ## Requisitos Funcionais:
 
 ### Livros:
 
- - [ ] Cada livro possui um ơtulo, um número de idenƟficação único (ISBN), autor(es), editora e ano
+- [ ] Cada livro possui um rotulo, um número de identificação único (ISBN), autor(es), editora e ano
 de publicação.
 - [ ] Deve ser possível cadastrar novos livros, atualizar informações e excluir registros.
 
 ### Usuários:
 
-- [ ] Cada usuário possui um número de idenƟficação único, nome, endereço, e-mail e telefone.
-- [ ] O sistema deve permiƟr o cadastro de novos usuários, atualização de informações e exclusão
+- [ ] Cada usuário possui um número de identificação único, nome, endereço, e-mail e telefone.
+- [ ] O sistema deve permitir o cadastro de novos usuários, atualização de informações e exclusão
 de registros.
 
  ### Empréstmos:
  
 - [ ] Um emprésƟmo é associado a um usuário e a um livro específico.
-- [ ]  Cada emprésƟmo possui uma data de reƟrada e uma data de devolução prevista.
-- [ ]  Os emprésƟmos podem ser renovados, mas com um limite de renovações.
-- [ ]  O sistema deve gerenciar a disponibilidade dos livros para empréstmo.
+- [ ] Cada emprésƟmo possui uma data de reƟrada e uma data de devolução prevista.
+- [ ] Os emprésƟmos podem ser renovados, mas com um limite de renovações.
+- [ ] O sistema deve gerenciar a disponibilidade dos livros para empréstmo.
 
 ### Devoluções:
 
-- [ ]  Quando um livro é devolvido, o sistema deve registrar a data da devolução.
-- [ ]  Deve ser possível verificar se um livro está atrasado e calcular eventuais multas.
+- [ ] Quando um livro é devolvido, o sistema deve registrar a data da devolução.
+- [ ] Deve ser possível verificar se um livro está atrasado e calcular eventuais multas.
 
 ### Restrições:
 
@@ -49,20 +50,20 @@ de registros.
 
 ## Tarefa:
 
-Implementar um sistema de reserva, permiƟndo que usuários reservem livros que estão atualmente
-emprestados. Caso um livro reservado seja devolvido, o sistema noƟfica o próximo usuário na fila de
+Implementar um sistema de reserva, permitindo que usuários reservem livros que estão atualmente
+emprestados. Caso um livro reservado seja devolvido, o sistema notifica o próximo usuário na fila de
 espera.
-Elabore um modelo de banco de dados usando o modelo EnƟdade-Relacionamento para atender a
-esses requisitos. IdenƟfique as enƟdades, atributos, relacionamentos e chaves primárias.
+Elabore um modelo de banco de dados usando o modelo Entidade-Relacionamento para atender a
+esses requisitos. Identifique as entidades, atributos, relacionamentos e chaves primárias.
 
 ## Parte 2
 
 ## COMPLEXIDADE ADICIONAL PARA O SISTEMA DE BIBLIOTECA:
 
 Adicione a capacidade de gerenciar diferentes filiais da biblioteca, onde cada filial possui seu próprio
-conjunto de livros, usuários e registros de emprésƟmos. Cada livro pode estar disponível em uma ou
-mais filiais, e os usuários podem ter cadastros em várias filiais. O sistema deve garanƟr que os
-emprésƟmos e devoluções sejam registrados corretamente, considerando a localização do livro e do
+conjunto de livros, usuários e registros de empréstimos. Cada livro pode estar disponível em uma ou
+mais filiais, e os usuários podem ter cadastros em várias filiais. O sistema deve garantir que os
+empréstimos e devoluções sejam registrados corretamente, considerando a localização do livro e do
 usuário.
 
 ### Algebra Relacional:
