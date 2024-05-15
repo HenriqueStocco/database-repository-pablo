@@ -68,7 +68,8 @@ usuário.
 
 ### Algebra Relacional:
 
-- [ ]  Considere a necessidade de realizar consultas complexas para obter informações, como:
+Considere a necessidade de realizar consultas complexas para obter informações, como:
+
 - [ ]  Encontrar todos os livros disponíveis em uma determinada filial.
 - [ ]  Obter uma lista de usuários que têm livros emprestados em mais de uma filial.
 - [ ]  Calcular o número total de livros disponíveis em todas as filiais.
