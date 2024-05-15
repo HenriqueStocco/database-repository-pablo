@@ -1,4 +1,4 @@
-# Projeto de PráƟca – BANCO DE DADOS Elaboração de um modelo EnƟdade – Relacionamento
+# Projeto de Prática – BANCO DE DADOS Elaboração de um modelo Entidade – Relacionamento
 
 > [!Important]
 > Entrega até dia 03/06.
@@ -32,9 +32,9 @@ de registros.
 
  ### Empréstmos:
  
-- [ ] Um emprésƟmo é associado a um usuário e a um livro específico.
-- [ ] Cada emprésƟmo possui uma data de reƟrada e uma data de devolução prevista.
-- [ ] Os emprésƟmos podem ser renovados, mas com um limite de renovações.
+- [ ] Um empréstimo é associado a um usuário e a um livro específico.
+- [ ] Cada emprésƟmo possui uma data de retirada e uma data de devolução prevista.
+- [ ] Os empréstimos podem ser renovados, mas com um limite de renovações.
 - [ ] O sistema deve gerenciar a disponibilidade dos livros para empréstmo.
 
 ### Devoluções:
