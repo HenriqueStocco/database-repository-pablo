@@ -56,6 +56,17 @@ espera.
 Elabore um modelo de banco de dados usando o modelo Entidade-Relacionamento para atender a
 esses requisitos. Identifique as entidades, atributos, relacionamentos e chaves primárias.
 
+> [!NOTE]
+> Criar pelo menos duas filiais;
+> 
+> Inserir pelo menos dois usuarios em cada filial;
+> 
+> Inserir pelo menos cinco livros em cada filial;
+>
+> Fazer pelo menos um emprestimo para cada usuario em cada filial;
+>
+> Fazer pelo menos uma devolução para cada usuário em cada filial.
+
 ## Parte 2
 
 ## COMPLEXIDADE ADICIONAL PARA O SISTEMA DE BIBLIOTECA:
